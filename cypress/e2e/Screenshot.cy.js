@@ -13,6 +13,6 @@ describe('Screenshot', () =>
         cy.get("input[name='password1']").type('admin123');
         cy.get("button[type='submit']").click();
         cy.wait(2000);
-        //command to take screenshot
+        //command to take screenshot. this is first.
     })
 })
